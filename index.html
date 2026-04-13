@@ -1,12 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge-1 Simple Landing Page with Html and CSS</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <!-- Code Here -->
-</body>
+    <!-- Link (Untuk menghubungkan file Styling CSS) -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER (Judul)-->
+    <header>
+      <h1>BELAJAR HTML DASAR</h1>
+      <!-- NAV (Navigasi) -->
+      <nav>
+        <!-- UL (Merupakan singkatan dari Unordered List) -->
+        <ul>
+          <!-- LI (Merupakan singkatan dari List Item) -->
+          <li><a href="#home">Home</a></li>
+          <li><a href="#saran">Saran</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>Apa Itu HTML?</h2>
+        <p>
+          HTML atau HyperText Markup Language adalah bahasa markup yang
+          digunakan untuk mengatur struktur konten di halaman web. HTML terdiri
+          dari elemen-elemen yang disebut tag, yang menentukan bagaimana teks,
+          gambar, tautan, dan elemen lain ditampilkan di browser. HTML adalah
+          pondasi utama dari semua situs web; bahkan halaman web yang paling
+          kompleks pun dimulai dengan HTML. Di dunia pengembangan web, HTML
+          adalah dasar yang wajib dikuasai. HTML bekerja sama dengan CSS
+          (Cascading Style Sheets) untuk tampilan dan JavaScript untuk
+          interaktivitas. Karena itu, belajar HTML adalah langkah pertama yang
+          sangat penting bagi siapa pun yang ingin belajar cara coding HTML dan
+          membangun web.
+        </p>
+        <h2>Persiapan untuk Belajar HTML</h2>
+        <p>
+          Sebelum mulai latihan HTML, Kamu perlu menyiapkan beberapa alat
+          sederhana:
+        </p>
+        <ol>
+          <h4><li>Teks Editor untuk Menulis HTML Dasar</li></h4>
+          <p>
+            Teks editor adalah alat utama yang digunakan untuk menulis kode
+            HTML. Ada banyak pilihan teks editor yang tersedia, baik gratis
+            maupun berbayar, seperti Notepad, Notepad++, Atom, Sublime Text, dan
+            Visual Studio Code. Visual Studio Code sering direkomendasikan
+            karena fitur-fiturnya yang mendukung berbagai bahasa pemrograman,
+            termasuk HTML, dan sangat cocok bagi pemula yang belajar HTML dari
+            nol.
+          </p>
+          <h4><li>Web Browser untuk Melihat Hasil HTML</li></h4>
+          <p>
+            Setelah menulis HTML di teks editor, Anda memerlukan web browser
+            untuk melihat hasil dari kode yang Anda tulis. Beberapa browser
+            populer seperti Google Chrome, Mozilla Firefox, atau Microsoft Edge
+            bekerja dengan baik untuk ini. Cukup buka file HTML di browser, dan
+            Anda akan melihat halaman web yang sudah Anda buat dengan HTML.
+          </p>
+        </ol>
+        <br />
+        <h3>1. Mengenal Tag, Elemen dan Atribut</h3>
+        <p>
+          HTML terdiri dari tag, elemen dan atribut yang masing-masing memiliki
+          peran penting.
+        </p>
+        <ul>
+          <h4><li>Tag</li></h4>
+          <p>
+            Tag adalah kode yang mengawali dan mengakhiri sebuah elemen di HTML,
+            biasanya ditulis di antara tanda kurung sudut
+          </p>
+          <h4><li>Elemen</li></h4>
+          <p>Elemen adalah kombinasi dari tag pembuka, isi, dan tag penutup.</p>
+          <h4><li>Atribut</li></h4>
+          <p>
+            Atribut adalah informasi tambahan yang diberikan di dalam tag untuk
+            memberikan properti tertentu pada elemen.
+          </p>
+        </ul>
+
+        <h3>2. Memahami Struktur Dasar HTML</h3>
+        <p>
+          Struktur HTML terdiri dari beberapa elemen utama yang membuat halaman
+          web memiliki format standar.
+        </p>
+        <ul>
+          <h4><li>Tag (!DOCTYPE html)</li></h4>
+          <p>
+            Tag (!DOCTYPE html) menandakan tipe dokumen dan ditempatkan di baris
+            paling atas file HTML untuk menginstruksikan browser bahwa dokumen
+            ini adalah HTML5.
+          </p>
+          <h4><li>Tag (HTML)</li></h4>
+          <p>
+            Tag (HTML) merupakan elemen utama yang mengapit seluruh kode HTML.
+          </p>
+          <h4><li>Tag (HEAD)</li></h4>
+          <p>
+            Tag (HEAD) Anda dapat memasukkan informasi penting seperti judul
+            halaman.
+          </p>
+          <h4><li>Tag (BODY)</li></h4>
+          <p>
+            Tag (BODY) semua konten yang akan ditampilkan di browser akan
+            ditulis, termasuk teks, gambar, video, dan elemen lainnya.
+          </p>
+        </ul>
+
+        <h3>3. Menyiapkan Editor HTML</h3>
+        <p>
+          Setelah memahami struktur dasar HTML, langkah selanjutnya adalah
+          menyiapkan teks editor Anda untuk menulis kode HTML. Buka editor
+          favorit Anda dan buat file baru, lalu simpan dengan ekstensi .html,
+          seperti index.html. Ini akan menjadi file utama yang bisa Anda
+          jalankan di browser.
+        </p>
+
+        <h3>4. Membuka Web Browser</h3>
+        <p>
+          Setelah membuat file HTML, buka file tersebut di browser untuk melihat
+          hasil kode HTML Anda. Cukup klik kanan pada file HTML dan pilih “Open
+          with” lalu pilih browser yang Anda inginkan.
+        </p>
+
+        <h3>5. Membuat Halaman Website Pertama</h3>
+        <p>
+          Mulailah dengan membuat halaman sederhana. Di dalam file HTML,
+          tambahkan kode berikut:
+        </p>
+        <img src="./images/file-html.png" alt="GambarV2" />
+
+        <h3>6. Melengkapi Halaman Website</h3>
+        <p>
+          Setelah berhasil membuat halaman pertama, Anda dapat menambahkan
+          elemen-elemen lain seperti gambar, tautan, atau daftar. Misalnya,
+          untuk menambahkan gambar, Anda bisa menggunakan tag "img /".
+        </p>
+
+        <h3>7. Mengatur Template Halaman Website dengan HTML</h3>
+        <p>
+          Untuk membuat website yang lebih terstruktur, Anda bisa mengatur
+          layout dasar seperti header, footer, dan main content.
+        </p>
+
+        <h3>8. Memodifikasi Kode Warna HTML</h3>
+        <p>
+          HTML mendukung berbagai cara untuk menambahkan warna pada elemen
+          dengan menggunakan CSS.
+        </p>
+        <br />
+        <h2>Belajar HTML Ternyata Sangat Menyenangkan!</h2>
+        <p>
+          Belajar HTML dari nol memang membutuhkan waktu, tetapi sangat mungkin
+          dilakukan. Dengan latihan HTML yang rutin, pemahaman struktur HTML,
+          dan mencoba berbagai elemen yang tersedia, Anda akan semakin mahir.
+          Teruslah bereksperimen dan perbaiki keterampilan Anda dengan mencoba
+          membuat halaman yang lebih kompleks. Jangan lupa untuk memahami cara
+          coding HTML dengan tepat agar halaman yang Anda buat bisa berjalan
+          dengan baik di berbagai browser. Semoga panduan ini membantu Anda
+          memulai perjalanan belajar HTML dan menjadi langkah awal Anda sebagai
+          developer web!
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Copyright &copy; 2026 - Challenge 1 Kelas HTML WPH-20-Ebudiyanto. All
+        Rights Reserved
+      </p>
+    </footer>
+  </body>
 </html>
