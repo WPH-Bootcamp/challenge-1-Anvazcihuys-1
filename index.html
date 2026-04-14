@@ -8,23 +8,34 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- HEADER (Judul)-->
+    <!-- HEADER (Kepala Halaman)-->
     <header>
+      <!-- H1 (Judul) -->
       <h1>BELAJAR HTML DASAR</h1>
       <!-- NAV (Navigasi) -->
       <nav>
         <!-- UL (Merupakan singkatan dari Unordered List) -->
-        <ul>
+        <ul class="navbar">
           <!-- LI (Merupakan singkatan dari List Item) -->
-          <li><a href="#home">Home</a></li>
-          <li><a href="#saran">Saran</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <div style="flex-shrink: 3" class="kotak home">
+            <a href="#home">Home</a>
+          </div>
+          <div style="flex-shrink: 3" class="kotak saran">
+            <a href="#saran">Saran</a>
+          </div>
+          <div style="flex-shrink: 3" class="kotak contact">
+            <a href="#Contact">Contact</a>
+          </div>
         </ul>
       </nav>
     </header>
+    <!-- MAIN (Konten Utama) -->
     <main>
+      <!-- SECTION (Bagian Tematik) -->
       <section id="home">
+        <!-- H2 (Sub Judul) -->
         <h2>Apa Itu HTML?</h2>
+        <!-- P (Paragraf) -->
         <p>
           HTML atau HyperText Markup Language adalah bahasa markup yang
           digunakan untuk mengatur struktur konten di halaman web. HTML terdiri
@@ -43,6 +54,7 @@
           Sebelum mulai latihan HTML, Kamu perlu menyiapkan beberapa alat
           sederhana:
         </p>
+        <!-- OL (Merupakan singkatan dari Ordered List) -->
         <ol>
           <h4><li>Teks Editor untuk Menulis HTML Dasar</li></h4>
           <p>
@@ -168,6 +180,7 @@
         </p>
       </section>
     </main>
+    <!-- FOOTER (Kaki Halaman) -->
     <footer>
       <p>
         Copyright &copy; 2026 - Challenge 1 Kelas HTML WPH-20-Ebudiyanto. All
